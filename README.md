@@ -1,6 +1,15 @@
 # Config-Functions
 A utility atomic function to get config data before sending to api
 
+## Install
+
+Install with [npm](https://www.npmjs.com/):
+
+```sh
+$ npm install --save config-function
+```
+
+
 # Functions It returns
 
 

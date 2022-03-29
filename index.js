@@ -11,7 +11,7 @@ export const configFunction = () => {
 
 /**
  * @param {{token: string}} userInfo
- * @returns a config cunction which requires a bearer token with it
+ * @returns a config function which requires a bearer token with it
  */
 export const tokenconfigFunction = (userInfo) => {
   if (userInfo.token == undefined) {
@@ -30,7 +30,7 @@ export const tokenconfigFunction = (userInfo) => {
 
 /**
  * @param {Object} getState
- * @returns a config cunction which requires a bearer token with it in redux
+ * @returns a config function which requires a bearer token with it in redux
  */
 export const reduxConfigFunction = (getState) => {
   const {

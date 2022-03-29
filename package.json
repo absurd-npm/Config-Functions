@@ -1,11 +1,24 @@
 {
   "name": "config-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility atomic function to get config data before sending to api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "npm",
+    "Config",
+    "atomic function"
+  ],
+  "author": "Prasun Das",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/absurd-npm/Config-Functions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/absurd-npm/Config-Functions/issues"
+  },
+  "homepage": "https://github.com/absurd-npm/Config-Functions#readme"
 }
